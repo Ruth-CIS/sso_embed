@@ -1,0 +1,1369 @@
+{
+  "id": 13,
+  "user_id": 1,
+  "title": "Advanced Insights",
+  "description": null,
+  "readonly": false,
+  "hidden": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "content_metadata_id": 64,
+  "query_timezone": null,
+  "space": {
+    "id": 21,
+    "creator_id": 1,
+    "name": "Advanced",
+    "parent_id": 18,
+    "content_metadata_id": 28,
+    "is_personal": false,
+    "is_shared_root": false,
+    "is_users_root": false,
+    "is_personal_descendant": false,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "external_id": null,
+    "child_count": 0,
+    "is_user_root": false,
+    "is_root": false,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "update": true,
+      "destroy": true,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "space_id": 21,
+  "view_count": 2,
+  "favorite_count": 0,
+  "slug": "kAUTyMvYp8LvqenXqPhuhG",
+  "dashboard_elements": [
+    {
+      "id": 31,
+      "dashboard_id": 13,
+      "look_id": 24,
+      "type": "vis",
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "note_display": null,
+      "note_state": null,
+      "title_hidden": false,
+      "title_text": null,
+      "title": null,
+      "subtitle_text": null,
+      "body_text": null,
+      "body_text_as_html": null,
+      "look": {
+        "id": 24,
+        "content_metadata_id": 65,
+        "view_count": null,
+        "favorite_count": null,
+        "last_accessed_at": null,
+        "user": {
+          "id": 1
+        },
+        "user_id": 1,
+        "query_id": 263,
+        "title": "Sales and Users by State",
+        "created_at": "2019-04-17 17:42:28 +0100",
+        "updated_at": "2019-04-17 17:42:28 +0100",
+        "description": null,
+        "short_url": "/looks/24",
+        "space_id": 21,
+        "space": {
+          "id": 21,
+          "creator_id": 1,
+          "name": "Advanced",
+          "parent_id": 18,
+          "content_metadata_id": 28,
+          "is_personal": false,
+          "is_shared_root": false,
+          "is_users_root": false,
+          "is_personal_descendant": false,
+          "is_embed": false,
+          "is_embed_shared_root": false,
+          "is_embed_users_root": false,
+          "external_id": null,
+          "child_count": 0,
+          "is_user_root": false,
+          "is_root": false,
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "see_admin_spaces": true,
+            "update": true,
+            "destroy": true,
+            "move_content": true,
+            "edit_content": true
+          }
+        },
+        "last_updater_id": 1,
+        "deleted_at": null,
+        "deleter_id": null,
+        "is_run_on_load": true,
+        "public_slug": "Sssf8HqqsrzKNnwVQNxtY5txvGSvzF6X",
+        "url": "/explore/cheetah/order_items?fields=users.state,users.user_count,order_items.total_sales&f[order_items.created_year]=1+years+ago+for+1+years&sorts=order_items.total_sales+desc&limit=10&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%224a543302-b64d-409c-9863-679b5b230aac%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%22order_items.total_gross_margin%22%3A%22%23ff9c60%22%7D%2C%22series_types%22%3A%7B%22users.user_count%22%3A%22line%22%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22hidden_series%22%3A%5B%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22order_items.total_sales%22%2C%22name%22%3A%22Total+Sales%22%2C%22axisId%22%3A%22order_items.total_sales%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22users.user_count%22%2C%22name%22%3A%22User+Count%22%2C%22axisId%22%3A%22users.user_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&title=Sales+and+Users+by+State&look_id=24",
+        "query": {
+          "id": 263,
+          "view": "order_items",
+          "fields": [
+            "users.state",
+            "users.user_count",
+            "order_items.total_sales"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_year": "1 years ago for 1 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.total_sales desc"
+          ],
+          "limit": "10",
+          "column_limit": null,
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.5010769367218018,
+          "vis_config": {
+            "stacking": "",
+            "trellis": "",
+            "color_application": {
+              "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+              "palette_id": "4a543302-b64d-409c-9863-679b5b230aac",
+              "options": {
+                "steps": 5
+              }
+            },
+            "show_value_labels": false,
+            "label_density": 25,
+            "legend_position": "center",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "point_style": "none",
+            "series_colors": {
+              "order_items.total_gross_margin": "#ff9c60"
+            },
+            "series_types": {
+              "users.user_count": "line"
+            },
+            "limit_displayed_rows": false,
+            "hidden_series": [
+
+            ],
+            "y_axes": [
+              {
+                "label": "",
+                "orientation": "left",
+                "series": [
+                  {
+                    "id": "order_items.total_sales",
+                    "name": "Total Sales",
+                    "axisId": "order_items.total_sales"
+                  }
+                ],
+                "showLabels": true,
+                "showValues": true,
+                "unpinAxis": false,
+                "tickDensity": "default",
+                "type": "linear"
+              },
+              {
+                "label": null,
+                "orientation": "right",
+                "series": [
+                  {
+                    "id": "users.user_count",
+                    "name": "User Count",
+                    "axisId": "users.user_count"
+                  }
+                ],
+                "showLabels": true,
+                "showValues": true,
+                "unpinAxis": false,
+                "tickDensity": "default",
+                "type": "linear"
+              }
+            ],
+            "y_axis_combined": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "x_axis_scale": "auto",
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080",
+            "type": "looker_column"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "1",
+                    "unit": "c_yr"
+                  },
+                  {
+                  }
+                ],
+                "id": 0,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "D8yQBTR",
+          "dynamic_fields": "[]",
+          "client_id": "VtYIR5gCAop4c0NCheFUHZ",
+          "share_url": "https://self-signed.looker.com:9999/x/VtYIR5gCAop4c0NCheFUHZ",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=users.state,users.user_count,order_items.total_sales&f[order_items.created_year]=1+years+ago+for+1+years&sorts=order_items.total_sales+desc&limit=10&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%224a543302-b64d-409c-9863-679b5b230aac%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%22order_items.total_gross_margin%22%3A%22%23ff9c60%22%7D%2C%22series_types%22%3A%7B%22users.user_count%22%3A%22line%22%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22hidden_series%22%3A%5B%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22order_items.total_sales%22%2C%22name%22%3A%22Total+Sales%22%2C%22axisId%22%3A%22order_items.total_sales%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22users.user_count%22%2C%22name%22%3A%22User+Count%22%2C%22axisId%22%3A%22users.user_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=users.state,users.user_count,order_items.total_sales&f[order_items.created_year]=1+years+ago+for+1+years&sorts=order_items.total_sales+desc&limit=10&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%224a543302-b64d-409c-9863-679b5b230aac%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%22order_items.total_gross_margin%22%3A%22%23ff9c60%22%7D%2C%22series_types%22%3A%7B%22users.user_count%22%3A%22line%22%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22hidden_series%22%3A%5B%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22order_items.total_sales%22%2C%22name%22%3A%22Total+Sales%22%2C%22axisId%22%3A%22order_items.total_sales%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22users.user_count%22%2C%22name%22%3A%22User+Count%22%2C%22axisId%22%3A%22users.user_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
+          "query_timezone": "America/Los_Angeles",
+          "has_table_calculations": false,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "model": {
+          "id": "cheetah",
+          "label": "Cheetah"
+        },
+        "content_favorite_id": null,
+        "last_viewed_at": null,
+        "deleted": false,
+        "public_url": "https://self-signed.looker.com:9999/looks/Sssf8HqqsrzKNnwVQNxtY5txvGSvzF6X.txt?apply_formatting=true&apply_vis=true",
+        "embed_url": "https://self-signed.looker.com:9999/embed/public/Sssf8HqqsrzKNnwVQNxtY5txvGSvzF6X",
+        "google_spreadsheet_formula": "=ImportXML(\"https://self-signed.looker.com:9999/looks/Sssf8HqqsrzKNnwVQNxtY5txvGSvzF6X.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+        "excel_file_url": "https://self-signed.looker.com:9999/looks/Sssf8HqqsrzKNnwVQNxtY5txvGSvzF6X.iqy?apply_formatting=true&apply_vis=true&filename=Sales+and+Users+by+State",
+        "public": null,
+        "can": {
+          "download": true,
+          "index": true,
+          "show": true,
+          "copy": true,
+          "run": true,
+          "create": true,
+          "explore": true,
+          "move": true,
+          "update": true,
+          "destroy": true,
+          "recover": true,
+          "update_publicity": true,
+          "show_errors": true,
+          "find_and_replace": true,
+          "schedule": true
+        }
+      },
+      "query": null,
+      "query_id": null,
+      "edit_uri": null,
+      "merge_result_id": null,
+      "result_maker_id": 50,
+      "result_maker": {
+        "id": 50,
+        "dynamic_fields": "[]",
+        "filterables": [
+          {
+            "model": "cheetah",
+            "view": "order_items",
+            "name": null,
+            "listen": [
+
+            ],
+            "can": {
+            }
+          }
+        ],
+        "sorts": [
+          "order_items.total_sales desc"
+        ],
+        "merge_result_id": null,
+        "total": null,
+        "query_id": 263,
+        "query": {
+          "id": 263,
+          "view": "order_items",
+          "fields": [
+            "users.state",
+            "users.user_count",
+            "order_items.total_sales"
+          ],
+          "pivots": null,
+          "fill_fields": null,
+          "filters": {
+            "order_items.created_year": "1 years ago for 1 years"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.total_sales desc"
+          ],
+          "limit": "10",
+          "column_limit": null,
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.5010769367218018,
+          "vis_config": {
+            "stacking": "",
+            "trellis": "",
+            "color_application": {
+              "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+              "palette_id": "4a543302-b64d-409c-9863-679b5b230aac",
+              "options": {
+                "steps": 5
+              }
+            },
+            "show_value_labels": false,
+            "label_density": 25,
+            "legend_position": "center",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "point_style": "none",
+            "series_colors": {
+              "order_items.total_gross_margin": "#ff9c60"
+            },
+            "series_types": {
+              "users.user_count": "line"
+            },
+            "limit_displayed_rows": false,
+            "hidden_series": [
+
+            ],
+            "y_axes": [
+              {
+                "label": "",
+                "orientation": "left",
+                "series": [
+                  {
+                    "id": "order_items.total_sales",
+                    "name": "Total Sales",
+                    "axisId": "order_items.total_sales"
+                  }
+                ],
+                "showLabels": true,
+                "showValues": true,
+                "unpinAxis": false,
+                "tickDensity": "default",
+                "type": "linear"
+              },
+              {
+                "label": null,
+                "orientation": "right",
+                "series": [
+                  {
+                    "id": "users.user_count",
+                    "name": "User Count",
+                    "axisId": "users.user_count"
+                  }
+                ],
+                "showLabels": true,
+                "showValues": true,
+                "unpinAxis": false,
+                "tickDensity": "default",
+                "type": "linear"
+              }
+            ],
+            "y_axis_combined": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "x_axis_scale": "auto",
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "ordering": "none",
+            "show_null_labels": false,
+            "show_totals_labels": false,
+            "show_silhouette": false,
+            "totals_color": "#808080",
+            "type": "looker_column"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "1",
+                    "unit": "c_yr"
+                  },
+                  {
+                  }
+                ],
+                "id": 0,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "D8yQBTR",
+          "dynamic_fields": "[]",
+          "client_id": "VtYIR5gCAop4c0NCheFUHZ",
+          "share_url": "https://self-signed.looker.com:9999/x/VtYIR5gCAop4c0NCheFUHZ",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=users.state,users.user_count,order_items.total_sales&f[order_items.created_year]=1+years+ago+for+1+years&sorts=order_items.total_sales+desc&limit=10&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%224a543302-b64d-409c-9863-679b5b230aac%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%22order_items.total_gross_margin%22%3A%22%23ff9c60%22%7D%2C%22series_types%22%3A%7B%22users.user_count%22%3A%22line%22%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22hidden_series%22%3A%5B%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22order_items.total_sales%22%2C%22name%22%3A%22Total+Sales%22%2C%22axisId%22%3A%22order_items.total_sales%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22users.user_count%22%2C%22name%22%3A%22User+Count%22%2C%22axisId%22%3A%22users.user_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=users.state,users.user_count,order_items.total_sales&f[order_items.created_year]=1+years+ago+for+1+years&sorts=order_items.total_sales+desc&limit=10&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22color_application%22%3A%7B%22collection_id%22%3A%22b43731d5-dc87-4a8e-b807-635bef3948e7%22%2C%22palette_id%22%3A%224a543302-b64d-409c-9863-679b5b230aac%22%2C%22options%22%3A%7B%22steps%22%3A5%7D%7D%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22none%22%2C%22series_colors%22%3A%7B%22order_items.total_gross_margin%22%3A%22%23ff9c60%22%7D%2C%22series_types%22%3A%7B%22users.user_count%22%3A%22line%22%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22hidden_series%22%3A%5B%5D%2C%22y_axes%22%3A%5B%7B%22label%22%3A%22%22%2C%22orientation%22%3A%22left%22%2C%22series%22%3A%5B%7B%22id%22%3A%22order_items.total_sales%22%2C%22name%22%3A%22Total+Sales%22%2C%22axisId%22%3A%22order_items.total_sales%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%2C%7B%22label%22%3Anull%2C%22orientation%22%3A%22right%22%2C%22series%22%3A%5B%7B%22id%22%3A%22users.user_count%22%2C%22name%22%3A%22User+Count%22%2C%22axisId%22%3A%22users.user_count%22%7D%5D%2C%22showLabels%22%3Atrue%2C%22showValues%22%3Atrue%2C%22unpinAxis%22%3Afalse%2C%22tickDensity%22%3A%22default%22%2C%22type%22%3A%22linear%22%7D%5D%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22ordering%22%3A%22none%22%2C%22show_null_labels%22%3Afalse%2C%22show_totals_labels%22%3Afalse%2C%22show_silhouette%22%3Afalse%2C%22totals_color%22%3A%22%23808080%22%2C%22type%22%3A%22looker_column%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%221%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
+          "query_timezone": "America/Los_Angeles",
+          "has_table_calculations": false,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "vis_config": {
+          "stacking": "",
+          "trellis": "",
+          "color_application": {
+            "collection_id": "b43731d5-dc87-4a8e-b807-635bef3948e7",
+            "palette_id": "4a543302-b64d-409c-9863-679b5b230aac",
+            "options": {
+              "steps": 5
+            }
+          },
+          "show_value_labels": false,
+          "label_density": 25,
+          "legend_position": "center",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "point_style": "none",
+          "series_colors": {
+            "order_items.total_gross_margin": "#ff9c60"
+          },
+          "series_types": {
+            "users.user_count": "line"
+          },
+          "limit_displayed_rows": false,
+          "hidden_series": [
+
+          ],
+          "y_axes": [
+            {
+              "label": "",
+              "orientation": "left",
+              "series": [
+                {
+                  "id": "order_items.total_sales",
+                  "name": "Total Sales",
+                  "axisId": "order_items.total_sales"
+                }
+              ],
+              "showLabels": true,
+              "showValues": true,
+              "unpinAxis": false,
+              "tickDensity": "default",
+              "type": "linear"
+            },
+            {
+              "label": null,
+              "orientation": "right",
+              "series": [
+                {
+                  "id": "users.user_count",
+                  "name": "User Count",
+                  "axisId": "users.user_count"
+                }
+              ],
+              "showLabels": true,
+              "showValues": true,
+              "unpinAxis": false,
+              "tickDensity": "default",
+              "type": "linear"
+            }
+          ],
+          "y_axis_combined": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "x_axis_scale": "auto",
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "ordering": "none",
+          "show_null_labels": false,
+          "show_totals_labels": false,
+          "show_silhouette": false,
+          "totals_color": "#808080",
+          "type": "looker_column"
+        },
+        "can": {
+        }
+      },
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true,
+        "explore": true,
+        "run": true,
+        "show_errors": true,
+        "find_and_replace": true
+      }
+    },
+    {
+      "id": 32,
+      "dashboard_id": 13,
+      "look_id": 25,
+      "type": "vis",
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "note_display": null,
+      "note_state": null,
+      "title_hidden": false,
+      "title_text": null,
+      "title": null,
+      "subtitle_text": null,
+      "body_text": null,
+      "body_text_as_html": null,
+      "look": {
+        "id": 25,
+        "content_metadata_id": 66,
+        "view_count": null,
+        "favorite_count": null,
+        "last_accessed_at": null,
+        "user": {
+          "id": 1
+        },
+        "user_id": 1,
+        "query_id": 323,
+        "title": "User Signups Last Month",
+        "created_at": "2019-04-17 17:42:28 +0100",
+        "updated_at": "2019-04-17 17:42:28 +0100",
+        "description": null,
+        "short_url": "/looks/25",
+        "space_id": 21,
+        "space": {
+          "id": 21,
+          "creator_id": 1,
+          "name": "Advanced",
+          "parent_id": 18,
+          "content_metadata_id": 28,
+          "is_personal": false,
+          "is_shared_root": false,
+          "is_users_root": false,
+          "is_personal_descendant": false,
+          "is_embed": false,
+          "is_embed_shared_root": false,
+          "is_embed_users_root": false,
+          "external_id": null,
+          "child_count": 0,
+          "is_user_root": false,
+          "is_root": false,
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "see_admin_spaces": true,
+            "update": true,
+            "destroy": true,
+            "move_content": true,
+            "edit_content": true
+          }
+        },
+        "last_updater_id": 1,
+        "deleted_at": null,
+        "deleter_id": null,
+        "is_run_on_load": true,
+        "public_slug": "JM2KZP8dyjgGtppx2rxYxSXZfF9Ph8CT",
+        "url": "/explore/cheetah/order_items?fields=users.created_month,users.user_count&fill_fields=users.created_month&f[users.created_month]=2+months+ago+for+2+months&sorts=users.created_month+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22User+Signups+Last+Month%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22users.created_month%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_mo%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_month%22%2C%22label%22%3A%22Previous+Month%22%2C%22expression%22%3A%22%28%24%7Busers.user_count%7D-offset%28%24%7Busers.user_count%7D%2C1%29%29%2Foffset%28%24%7Busers.user_count%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=User+Signups+Last+Month&look_id=25",
+        "query": {
+          "id": 323,
+          "view": "order_items",
+          "fields": [
+            "users.created_month",
+            "users.user_count"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "users.created_month"
+          ],
+          "filters": {
+            "users.created_month": "2 months ago for 2 months"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "users.created_month desc"
+          ],
+          "limit": "500",
+          "column_limit": "50",
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.857266902923584,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "custom_color": "",
+            "show_single_value_title": true,
+            "single_value_title": "User Signups Last Month",
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "type": "single_value"
+          },
+          "filter_config": {
+            "users.created_month": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_mo"
+                  },
+                  {
+                  }
+                ],
+                "id": 3,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "kCzZtNP",
+          "dynamic_fields": "[{\"table_calculation\":\"previous_month\",\"label\":\"Previous Month\",\"expression\":\"(${users.user_count}-offset(${users.user_count},1))/offset(${users.user_count},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+          "client_id": "w87LQb8cLv0BGNfLa8qNim",
+          "share_url": "https://self-signed.looker.com:9999/x/w87LQb8cLv0BGNfLa8qNim",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=users.created_month,users.user_count&fill_fields=users.created_month&f[users.created_month]=2+months+ago+for+2+months&sorts=users.created_month+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22User+Signups+Last+Month%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22users.created_month%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_mo%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_month%22%2C%22label%22%3A%22Previous+Month%22%2C%22expression%22%3A%22%28%24%7Busers.user_count%7D-offset%28%24%7Busers.user_count%7D%2C1%29%29%2Foffset%28%24%7Busers.user_count%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=users.created_month,users.user_count&fill_fields=users.created_month&f[users.created_month]=2+months+ago+for+2+months&sorts=users.created_month+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22User+Signups+Last+Month%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22users.created_month%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_mo%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_month%22%2C%22label%22%3A%22Previous+Month%22%2C%22expression%22%3A%22%28%24%7Busers.user_count%7D-offset%28%24%7Busers.user_count%7D%2C1%29%29%2Foffset%28%24%7Busers.user_count%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "query_timezone": null,
+          "has_table_calculations": true,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "model": {
+          "id": "cheetah",
+          "label": "Cheetah"
+        },
+        "content_favorite_id": null,
+        "last_viewed_at": null,
+        "deleted": false,
+        "public_url": "https://self-signed.looker.com:9999/looks/JM2KZP8dyjgGtppx2rxYxSXZfF9Ph8CT.txt?apply_formatting=true&apply_vis=true",
+        "embed_url": "https://self-signed.looker.com:9999/embed/public/JM2KZP8dyjgGtppx2rxYxSXZfF9Ph8CT",
+        "google_spreadsheet_formula": "=ImportXML(\"https://self-signed.looker.com:9999/looks/JM2KZP8dyjgGtppx2rxYxSXZfF9Ph8CT.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+        "excel_file_url": "https://self-signed.looker.com:9999/looks/JM2KZP8dyjgGtppx2rxYxSXZfF9Ph8CT.iqy?apply_formatting=true&apply_vis=true&filename=User+Signups+Last+Month",
+        "public": null,
+        "can": {
+          "download": true,
+          "index": true,
+          "show": true,
+          "copy": true,
+          "run": true,
+          "create": true,
+          "explore": true,
+          "move": true,
+          "update": true,
+          "destroy": true,
+          "recover": true,
+          "update_publicity": true,
+          "show_errors": true,
+          "find_and_replace": true,
+          "schedule": true
+        }
+      },
+      "query": null,
+      "query_id": null,
+      "edit_uri": null,
+      "merge_result_id": null,
+      "result_maker_id": 52,
+      "result_maker": {
+        "id": 52,
+        "dynamic_fields": "[{\"table_calculation\":\"previous_month\",\"label\":\"Previous Month\",\"expression\":\"(${users.user_count}-offset(${users.user_count},1))/offset(${users.user_count},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+        "filterables": [
+          {
+            "model": "cheetah",
+            "view": "order_items",
+            "name": null,
+            "listen": [
+
+            ],
+            "can": {
+            }
+          }
+        ],
+        "sorts": [
+          "users.created_month desc"
+        ],
+        "merge_result_id": null,
+        "total": null,
+        "query_id": 323,
+        "query": {
+          "id": 323,
+          "view": "order_items",
+          "fields": [
+            "users.created_month",
+            "users.user_count"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "users.created_month"
+          ],
+          "filters": {
+            "users.created_month": "2 months ago for 2 months"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "users.created_month desc"
+          ],
+          "limit": "500",
+          "column_limit": "50",
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.857266902923584,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "custom_color": "",
+            "show_single_value_title": true,
+            "single_value_title": "User Signups Last Month",
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "type": "single_value"
+          },
+          "filter_config": {
+            "users.created_month": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_mo"
+                  },
+                  {
+                  }
+                ],
+                "id": 3,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "kCzZtNP",
+          "dynamic_fields": "[{\"table_calculation\":\"previous_month\",\"label\":\"Previous Month\",\"expression\":\"(${users.user_count}-offset(${users.user_count},1))/offset(${users.user_count},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+          "client_id": "w87LQb8cLv0BGNfLa8qNim",
+          "share_url": "https://self-signed.looker.com:9999/x/w87LQb8cLv0BGNfLa8qNim",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=users.created_month,users.user_count&fill_fields=users.created_month&f[users.created_month]=2+months+ago+for+2+months&sorts=users.created_month+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22User+Signups+Last+Month%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22users.created_month%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_mo%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_month%22%2C%22label%22%3A%22Previous+Month%22%2C%22expression%22%3A%22%28%24%7Busers.user_count%7D-offset%28%24%7Busers.user_count%7D%2C1%29%29%2Foffset%28%24%7Busers.user_count%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=users.created_month,users.user_count&fill_fields=users.created_month&f[users.created_month]=2+months+ago+for+2+months&sorts=users.created_month+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22User+Signups+Last+Month%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22users.created_month%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_mo%22%7D%2C%7B%7D%5D%2C%22id%22%3A3%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_month%22%2C%22label%22%3A%22Previous+Month%22%2C%22expression%22%3A%22%28%24%7Busers.user_count%7D-offset%28%24%7Busers.user_count%7D%2C1%29%29%2Foffset%28%24%7Busers.user_count%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "query_timezone": null,
+          "has_table_calculations": true,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "custom_color": "",
+          "show_single_value_title": true,
+          "single_value_title": "User Signups Last Month",
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "type": "single_value"
+        },
+        "can": {
+        }
+      },
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true,
+        "explore": true,
+        "run": true,
+        "show_errors": true,
+        "find_and_replace": true
+      }
+    },
+    {
+      "id": 33,
+      "dashboard_id": 13,
+      "look_id": 26,
+      "type": "vis",
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "note_display": null,
+      "note_state": null,
+      "title_hidden": false,
+      "title_text": null,
+      "title": null,
+      "subtitle_text": null,
+      "body_text": null,
+      "body_text_as_html": null,
+      "look": {
+        "id": 26,
+        "content_metadata_id": 67,
+        "view_count": null,
+        "favorite_count": null,
+        "last_accessed_at": null,
+        "user": {
+          "id": 1
+        },
+        "user_id": 1,
+        "query_id": 390,
+        "title": "Sales by Brand",
+        "created_at": "2019-04-17 17:42:28 +0100",
+        "updated_at": "2019-04-17 17:42:28 +0100",
+        "description": null,
+        "short_url": "/looks/26",
+        "space_id": 21,
+        "space": {
+          "id": 21,
+          "creator_id": 1,
+          "name": "Advanced",
+          "parent_id": 18,
+          "content_metadata_id": 28,
+          "is_personal": false,
+          "is_shared_root": false,
+          "is_users_root": false,
+          "is_personal_descendant": false,
+          "is_embed": false,
+          "is_embed_shared_root": false,
+          "is_embed_users_root": false,
+          "external_id": null,
+          "child_count": 0,
+          "is_user_root": false,
+          "is_root": false,
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "see_admin_spaces": true,
+            "update": true,
+            "destroy": true,
+            "move_content": true,
+            "edit_content": true
+          }
+        },
+        "last_updater_id": 1,
+        "deleted_at": null,
+        "deleter_id": null,
+        "is_run_on_load": true,
+        "public_slug": "GWZsFdR7vZBBygbdjrp5rr8m4wnSnjV7",
+        "url": "/explore/cheetah/order_items?fields=order_items.created_month_name,order_items.total_sales,products.brand&pivots=products.brand&fill_fields=order_items.created_month_name&f[order_items.created_year]=2+years+ago+for+2+years&f[products.brand]=%7B%7B+_user_attributes%5B%27brand%27%5D+%7D%7D&sorts=products.brand+0,order_items.created_month_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22circle_outline%22%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22products.brand%22%3A%5B%7B%22type%22%3A%22user_attribute%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22brand%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&title=Sales+by+Brand&look_id=26",
+        "query": {
+          "id": 390,
+          "view": "order_items",
+          "fields": [
+            "order_items.created_month_name",
+            "order_items.total_sales",
+            "products.brand"
+          ],
+          "pivots": [
+            "products.brand"
+          ],
+          "fill_fields": [
+            "order_items.created_month_name"
+          ],
+          "filters": {
+            "order_items.created_year": "2 years ago for 2 years",
+            "products.brand": "{{ _user_attributes['brand'] }}"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "products.brand 0",
+            "order_items.created_month_name"
+          ],
+          "limit": "500",
+          "column_limit": null,
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.575829029083252,
+          "vis_config": {
+            "stacking": "",
+            "trellis": "",
+            "show_value_labels": false,
+            "label_density": 25,
+            "legend_position": "center",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "point_style": "circle_outline",
+            "series_types": {
+            },
+            "limit_displayed_rows": false,
+            "y_axis_combined": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "x_axis_scale": "auto",
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "show_null_points": true,
+            "interpolation": "linear",
+            "type": "looker_line"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_yr"
+                  },
+                  {
+                  }
+                ],
+                "id": 0,
+                "error": false
+              }
+            ],
+            "products.brand": [
+              {
+                "type": "user_attribute",
+                "values": [
+                  {
+                    "constant": "brand"
+                  },
+                  {
+                  }
+                ],
+                "id": 1,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "Dbm2kbJ",
+          "dynamic_fields": "[]",
+          "client_id": "RcuYnHYyG4je26LBFjsAFn",
+          "share_url": "https://self-signed.looker.com:9999/x/RcuYnHYyG4je26LBFjsAFn",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=order_items.created_month_name,order_items.total_sales,products.brand&pivots=products.brand&fill_fields=order_items.created_month_name&f[order_items.created_year]=2+years+ago+for+2+years&f[products.brand]=%7B%7B+_user_attributes%5B%27brand%27%5D+%7D%7D&sorts=products.brand+0,order_items.created_month_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22circle_outline%22%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22products.brand%22%3A%5B%7B%22type%22%3A%22user_attribute%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22brand%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=order_items.created_month_name,order_items.total_sales,products.brand&pivots=products.brand&fill_fields=order_items.created_month_name&f[order_items.created_year]=2+years+ago+for+2+years&f[products.brand]=%7B%7B+_user_attributes%5B%27brand%27%5D+%7D%7D&sorts=products.brand+0,order_items.created_month_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22circle_outline%22%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22products.brand%22%3A%5B%7B%22type%22%3A%22user_attribute%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22brand%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
+          "query_timezone": "America/Los_Angeles",
+          "has_table_calculations": false,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "model": {
+          "id": "cheetah",
+          "label": "Cheetah"
+        },
+        "content_favorite_id": null,
+        "last_viewed_at": null,
+        "deleted": false,
+        "public_url": "https://self-signed.looker.com:9999/looks/GWZsFdR7vZBBygbdjrp5rr8m4wnSnjV7.txt?apply_formatting=true&apply_vis=true",
+        "embed_url": "https://self-signed.looker.com:9999/embed/public/GWZsFdR7vZBBygbdjrp5rr8m4wnSnjV7",
+        "google_spreadsheet_formula": "=ImportXML(\"https://self-signed.looker.com:9999/looks/GWZsFdR7vZBBygbdjrp5rr8m4wnSnjV7.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+        "excel_file_url": "https://self-signed.looker.com:9999/looks/GWZsFdR7vZBBygbdjrp5rr8m4wnSnjV7.iqy?apply_formatting=true&apply_vis=true&filename=Sales+by+Brand",
+        "public": null,
+        "can": {
+          "download": true,
+          "index": true,
+          "show": true,
+          "copy": true,
+          "run": true,
+          "create": true,
+          "explore": true,
+          "move": true,
+          "update": true,
+          "destroy": true,
+          "recover": true,
+          "update_publicity": true,
+          "show_errors": true,
+          "find_and_replace": true,
+          "schedule": true
+        }
+      },
+      "query": null,
+      "query_id": null,
+      "edit_uri": null,
+      "merge_result_id": null,
+      "result_maker_id": 55,
+      "result_maker": {
+        "id": 55,
+        "dynamic_fields": "[]",
+        "filterables": [
+          {
+            "model": "cheetah",
+            "view": "order_items",
+            "name": null,
+            "listen": [
+
+            ],
+            "can": {
+            }
+          }
+        ],
+        "sorts": [
+          "products.brand 0",
+          "order_items.created_month_name"
+        ],
+        "merge_result_id": null,
+        "total": null,
+        "query_id": 390,
+        "query": {
+          "id": 390,
+          "view": "order_items",
+          "fields": [
+            "order_items.created_month_name",
+            "order_items.total_sales",
+            "products.brand"
+          ],
+          "pivots": [
+            "products.brand"
+          ],
+          "fill_fields": [
+            "order_items.created_month_name"
+          ],
+          "filters": {
+            "order_items.created_year": "2 years ago for 2 years",
+            "products.brand": "{{ _user_attributes['brand'] }}"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "products.brand 0",
+            "order_items.created_month_name"
+          ],
+          "limit": "500",
+          "column_limit": null,
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 1.575829029083252,
+          "vis_config": {
+            "stacking": "",
+            "trellis": "",
+            "show_value_labels": false,
+            "label_density": 25,
+            "legend_position": "center",
+            "x_axis_gridlines": false,
+            "y_axis_gridlines": true,
+            "show_view_names": false,
+            "point_style": "circle_outline",
+            "series_types": {
+            },
+            "limit_displayed_rows": false,
+            "y_axis_combined": true,
+            "show_y_axis_labels": true,
+            "show_y_axis_ticks": true,
+            "y_axis_tick_density": "default",
+            "y_axis_tick_density_custom": 5,
+            "show_x_axis_label": true,
+            "show_x_axis_ticks": true,
+            "x_axis_scale": "auto",
+            "y_axis_scale_mode": "linear",
+            "x_axis_reversed": false,
+            "y_axis_reversed": false,
+            "plot_size_by_field": false,
+            "show_null_points": true,
+            "interpolation": "linear",
+            "type": "looker_line"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_yr"
+                  },
+                  {
+                  }
+                ],
+                "id": 0,
+                "error": false
+              }
+            ],
+            "products.brand": [
+              {
+                "type": "user_attribute",
+                "values": [
+                  {
+                    "constant": "brand"
+                  },
+                  {
+                  }
+                ],
+                "id": 1,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "Dbm2kbJ",
+          "dynamic_fields": "[]",
+          "client_id": "RcuYnHYyG4je26LBFjsAFn",
+          "share_url": "https://self-signed.looker.com:9999/x/RcuYnHYyG4je26LBFjsAFn",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=order_items.created_month_name,order_items.total_sales,products.brand&pivots=products.brand&fill_fields=order_items.created_month_name&f[order_items.created_year]=2+years+ago+for+2+years&f[products.brand]=%7B%7B+_user_attributes%5B%27brand%27%5D+%7D%7D&sorts=products.brand+0,order_items.created_month_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22circle_outline%22%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22products.brand%22%3A%5B%7B%22type%22%3A%22user_attribute%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22brand%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=order_items.created_month_name,order_items.total_sales,products.brand&pivots=products.brand&fill_fields=order_items.created_month_name&f[order_items.created_year]=2+years+ago+for+2+years&f[products.brand]=%7B%7B+_user_attributes%5B%27brand%27%5D+%7D%7D&sorts=products.brand+0,order_items.created_month_name&limit=500&query_timezone=America%2FLos_Angeles&vis=%7B%22stacking%22%3A%22%22%2C%22trellis%22%3A%22%22%2C%22show_value_labels%22%3Afalse%2C%22label_density%22%3A25%2C%22legend_position%22%3A%22center%22%2C%22x_axis_gridlines%22%3Afalse%2C%22y_axis_gridlines%22%3Atrue%2C%22show_view_names%22%3Afalse%2C%22point_style%22%3A%22circle_outline%22%2C%22series_types%22%3A%7B%7D%2C%22limit_displayed_rows%22%3Afalse%2C%22y_axis_combined%22%3Atrue%2C%22show_y_axis_labels%22%3Atrue%2C%22show_y_axis_ticks%22%3Atrue%2C%22y_axis_tick_density%22%3A%22default%22%2C%22y_axis_tick_density_custom%22%3A5%2C%22show_x_axis_label%22%3Atrue%2C%22show_x_axis_ticks%22%3Atrue%2C%22x_axis_scale%22%3A%22auto%22%2C%22y_axis_scale_mode%22%3A%22linear%22%2C%22x_axis_reversed%22%3Afalse%2C%22y_axis_reversed%22%3Afalse%2C%22plot_size_by_field%22%3Afalse%2C%22show_null_points%22%3Atrue%2C%22interpolation%22%3A%22linear%22%2C%22type%22%3A%22looker_line%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_yr%22%7D%2C%7B%7D%5D%2C%22id%22%3A0%2C%22error%22%3Afalse%7D%5D%2C%22products.brand%22%3A%5B%7B%22type%22%3A%22user_attribute%22%2C%22values%22%3A%5B%7B%22constant%22%3A%22brand%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%5D",
+          "query_timezone": "America/Los_Angeles",
+          "has_table_calculations": false,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "vis_config": {
+          "stacking": "",
+          "trellis": "",
+          "show_value_labels": false,
+          "label_density": 25,
+          "legend_position": "center",
+          "x_axis_gridlines": false,
+          "y_axis_gridlines": true,
+          "show_view_names": false,
+          "point_style": "circle_outline",
+          "series_types": {
+          },
+          "limit_displayed_rows": false,
+          "y_axis_combined": true,
+          "show_y_axis_labels": true,
+          "show_y_axis_ticks": true,
+          "y_axis_tick_density": "default",
+          "y_axis_tick_density_custom": 5,
+          "show_x_axis_label": true,
+          "show_x_axis_ticks": true,
+          "x_axis_scale": "auto",
+          "y_axis_scale_mode": "linear",
+          "x_axis_reversed": false,
+          "y_axis_reversed": false,
+          "plot_size_by_field": false,
+          "show_null_points": true,
+          "interpolation": "linear",
+          "type": "looker_line"
+        },
+        "can": {
+        }
+      },
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true,
+        "explore": true,
+        "run": true,
+        "show_errors": true,
+        "find_and_replace": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": 13,
+      "dashboard_id": 13,
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Advanced Insights",
+      "dashboard_layout_components": [
+        {
+          "id": 31,
+          "dashboard_layout_id": 13,
+          "dashboard_element_id": 33,
+          "row": 4,
+          "column": 1,
+          "width": 11,
+          "height": 12,
+          "deleted": false,
+          "element_title": null,
+          "vis_type": "looker_line",
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "update": true,
+            "destroy": true
+          }
+        },
+        {
+          "id": 32,
+          "dashboard_layout_id": 13,
+          "dashboard_element_id": 31,
+          "row": 4,
+          "column": 12,
+          "width": 11,
+          "height": 12,
+          "deleted": false,
+          "element_title": null,
+          "vis_type": "looker_column",
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "update": true,
+            "destroy": true
+          }
+        },
+        {
+          "id": 33,
+          "dashboard_layout_id": 13,
+          "dashboard_element_id": 32,
+          "row": 0,
+          "column": 7,
+          "width": 10,
+          "height": 4,
+          "deleted": false,
+          "element_title": null,
+          "vis_type": "single_value",
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "update": true,
+            "destroy": true
+          }
+        }
+      ],
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_filters": [
+
+  ],
+  "load_configuration": "cache_run",
+  "background_color": null,
+  "show_title": null,
+  "title_color": null,
+  "show_filters_bar": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "text_tile_text_color": null,
+  "last_accessed_at": "2019-04-18 15:50:37 +0100",
+  "created_at": "2019-04-17 17:42:28 +0100",
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "lookml_link_id": null,
+  "model": null,
+  "content_favorite_id": null,
+  "deleted": false,
+  "last_viewed_at": "2019-04-18 14:28:34 +0100",
+  "can": {
+    "download": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "see_lookml": true,
+    "schedule": true
+  }
+}
