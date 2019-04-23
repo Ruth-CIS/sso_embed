@@ -1,0 +1,431 @@
+{
+  "id": 11,
+  "user_id": 1,
+  "title": "Total Sales",
+  "description": null,
+  "readonly": false,
+  "hidden": false,
+  "refresh_interval": null,
+  "refresh_interval_to_i": null,
+  "content_metadata_id": 54,
+  "query_timezone": null,
+  "space": {
+    "id": 1,
+    "creator_id": null,
+    "name": "Shared",
+    "parent_id": null,
+    "content_metadata_id": 1,
+    "is_personal": false,
+    "is_shared_root": true,
+    "is_users_root": false,
+    "is_personal_descendant": false,
+    "is_embed": false,
+    "is_embed_shared_root": false,
+    "is_embed_users_root": false,
+    "external_id": null,
+    "child_count": 2,
+    "is_user_root": false,
+    "is_root": true,
+    "can": {
+      "index": true,
+      "show": true,
+      "create": true,
+      "see_admin_spaces": true,
+      "update": false,
+      "destroy": false,
+      "move_content": true,
+      "edit_content": true
+    }
+  },
+  "space_id": 1,
+  "view_count": 6,
+  "favorite_count": 0,
+  "slug": "MA6YzXkT9kTaxerEnC5NIY",
+  "dashboard_elements": [
+    {
+      "id": 25,
+      "dashboard_id": 11,
+      "look_id": 16,
+      "type": "vis",
+      "refresh_interval": null,
+      "refresh_interval_to_i": null,
+      "note_text": null,
+      "note_text_as_html": null,
+      "note_display": null,
+      "note_state": null,
+      "title_hidden": false,
+      "title_text": null,
+      "title": null,
+      "subtitle_text": null,
+      "body_text": null,
+      "body_text_as_html": null,
+      "look": {
+        "id": 16,
+        "content_metadata_id": 55,
+        "view_count": null,
+        "favorite_count": null,
+        "last_accessed_at": null,
+        "user": {
+          "id": 1
+        },
+        "user_id": 1,
+        "query_id": 293,
+        "title": "Total Sales Last Quarter",
+        "created_at": "2019-04-17 15:05:01 +0100",
+        "updated_at": "2019-04-17 15:05:01 +0100",
+        "description": null,
+        "short_url": "/looks/16",
+        "space_id": 1,
+        "space": {
+          "id": 1,
+          "creator_id": null,
+          "name": "Shared",
+          "parent_id": null,
+          "content_metadata_id": 1,
+          "is_personal": false,
+          "is_shared_root": true,
+          "is_users_root": false,
+          "is_personal_descendant": false,
+          "is_embed": false,
+          "is_embed_shared_root": false,
+          "is_embed_users_root": false,
+          "external_id": null,
+          "child_count": 2,
+          "is_user_root": false,
+          "is_root": true,
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "see_admin_spaces": true,
+            "update": false,
+            "destroy": false,
+            "move_content": true,
+            "edit_content": true
+          }
+        },
+        "last_updater_id": 1,
+        "deleted_at": null,
+        "deleter_id": null,
+        "is_run_on_load": true,
+        "public_slug": "NHKRDsJg9P8YnmKksM4VpPtqsR9VxYm2",
+        "url": "/explore/cheetah/order_items?fields=order_items.created_quarter,order_items.total_sales&fill_fields=order_items.created_quarter&f[order_items.created_year]=2+quarters+ago+for+2+quarters&sorts=order_items.created_quarter+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22Total+Sales+Last+Quarter%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_qu%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_quarter%22%2C%22label%22%3A%22Previous+Quarter%22%2C%22expression%22%3A%22%24%7Border_items.total_sales%7D%2Foffset%28%24%7Border_items.total_sales%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&title=Total+Sales+Last+Quarter&look_id=16",
+        "query": {
+          "id": 293,
+          "view": "order_items",
+          "fields": [
+            "order_items.created_quarter",
+            "order_items.total_sales"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "order_items.created_quarter"
+          ],
+          "filters": {
+            "order_items.created_year": "2 quarters ago for 2 quarters"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.created_quarter desc"
+          ],
+          "limit": "500",
+          "column_limit": "50",
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 0.28532910346984863,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "custom_color": "",
+            "show_single_value_title": true,
+            "single_value_title": "Total Sales Last Quarter",
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "series_types": {
+            },
+            "type": "single_value"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_qu"
+                  },
+                  {
+                  }
+                ],
+                "id": 1,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "gjQ68s2",
+          "dynamic_fields": "[{\"table_calculation\":\"previous_quarter\",\"label\":\"Previous Quarter\",\"expression\":\"${order_items.total_sales}/offset(${order_items.total_sales},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+          "client_id": "KrfxQ4UpeDpVTAvVO7CiPv",
+          "share_url": "https://self-signed.looker.com:9999/x/KrfxQ4UpeDpVTAvVO7CiPv",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=order_items.created_quarter,order_items.total_sales&fill_fields=order_items.created_quarter&f[order_items.created_year]=2+quarters+ago+for+2+quarters&sorts=order_items.created_quarter+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22Total+Sales+Last+Quarter%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_qu%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_quarter%22%2C%22label%22%3A%22Previous+Quarter%22%2C%22expression%22%3A%22%24%7Border_items.total_sales%7D%2Foffset%28%24%7Border_items.total_sales%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=order_items.created_quarter,order_items.total_sales&fill_fields=order_items.created_quarter&f[order_items.created_year]=2+quarters+ago+for+2+quarters&sorts=order_items.created_quarter+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22Total+Sales+Last+Quarter%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_qu%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_quarter%22%2C%22label%22%3A%22Previous+Quarter%22%2C%22expression%22%3A%22%24%7Border_items.total_sales%7D%2Foffset%28%24%7Border_items.total_sales%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "query_timezone": null,
+          "has_table_calculations": true,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "model": {
+          "id": "cheetah",
+          "label": "Cheetah"
+        },
+        "content_favorite_id": null,
+        "last_viewed_at": null,
+        "deleted": false,
+        "public_url": "https://self-signed.looker.com:9999/looks/NHKRDsJg9P8YnmKksM4VpPtqsR9VxYm2.txt?apply_formatting=true&apply_vis=true",
+        "embed_url": "https://self-signed.looker.com:9999/embed/public/NHKRDsJg9P8YnmKksM4VpPtqsR9VxYm2",
+        "google_spreadsheet_formula": "=ImportXML(\"https://self-signed.looker.com:9999/looks/NHKRDsJg9P8YnmKksM4VpPtqsR9VxYm2.gsxml?apply_formatting=true&apply_vis=true\", \"//row\")",
+        "excel_file_url": "https://self-signed.looker.com:9999/looks/NHKRDsJg9P8YnmKksM4VpPtqsR9VxYm2.iqy?apply_formatting=true&apply_vis=true&filename=Total+Sales+Last+Quarter",
+        "public": null,
+        "can": {
+          "download": true,
+          "index": true,
+          "show": true,
+          "copy": true,
+          "run": true,
+          "create": true,
+          "explore": true,
+          "move": true,
+          "update": true,
+          "destroy": true,
+          "recover": true,
+          "update_publicity": true,
+          "show_errors": true,
+          "find_and_replace": true,
+          "schedule": true
+        }
+      },
+      "query": null,
+      "query_id": null,
+      "edit_uri": null,
+      "merge_result_id": null,
+      "result_maker_id": 54,
+      "result_maker": {
+        "id": 54,
+        "dynamic_fields": "[{\"table_calculation\":\"previous_quarter\",\"label\":\"Previous Quarter\",\"expression\":\"${order_items.total_sales}/offset(${order_items.total_sales},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+        "filterables": [
+          {
+            "model": "cheetah",
+            "view": "order_items",
+            "name": null,
+            "listen": [
+
+            ],
+            "can": {
+            }
+          }
+        ],
+        "sorts": [
+          "order_items.created_quarter desc"
+        ],
+        "merge_result_id": null,
+        "total": null,
+        "query_id": 293,
+        "query": {
+          "id": 293,
+          "view": "order_items",
+          "fields": [
+            "order_items.created_quarter",
+            "order_items.total_sales"
+          ],
+          "pivots": null,
+          "fill_fields": [
+            "order_items.created_quarter"
+          ],
+          "filters": {
+            "order_items.created_year": "2 quarters ago for 2 quarters"
+          },
+          "filter_expression": null,
+          "sorts": [
+            "order_items.created_quarter desc"
+          ],
+          "limit": "500",
+          "column_limit": "50",
+          "total": null,
+          "row_total": null,
+          "subtotals": null,
+          "runtime": 0.28532910346984863,
+          "vis_config": {
+            "custom_color_enabled": true,
+            "custom_color": "",
+            "show_single_value_title": true,
+            "single_value_title": "Total Sales Last Quarter",
+            "show_comparison": true,
+            "comparison_type": "change",
+            "comparison_reverse_colors": false,
+            "show_comparison_label": true,
+            "series_types": {
+            },
+            "type": "single_value"
+          },
+          "filter_config": {
+            "order_items.created_year": [
+              {
+                "type": "past",
+                "values": [
+                  {
+                    "constant": "2",
+                    "unit": "c_qu"
+                  },
+                  {
+                  }
+                ],
+                "id": 1,
+                "error": false
+              }
+            ]
+          },
+          "visible_ui_sections": null,
+          "slug": "gjQ68s2",
+          "dynamic_fields": "[{\"table_calculation\":\"previous_quarter\",\"label\":\"Previous Quarter\",\"expression\":\"${order_items.total_sales}/offset(${order_items.total_sales},1)\",\"value_format\":null,\"value_format_name\":\"percent_0\",\"_kind_hint\":\"measure\",\"_type_hint\":\"number\"}]",
+          "client_id": "KrfxQ4UpeDpVTAvVO7CiPv",
+          "share_url": "https://self-signed.looker.com:9999/x/KrfxQ4UpeDpVTAvVO7CiPv",
+          "expanded_share_url": "https://self-signed.looker.com:9999/explore/cheetah/order_items?fields=order_items.created_quarter,order_items.total_sales&fill_fields=order_items.created_quarter&f[order_items.created_year]=2+quarters+ago+for+2+quarters&sorts=order_items.created_quarter+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22Total+Sales+Last+Quarter%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_qu%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_quarter%22%2C%22label%22%3A%22Previous+Quarter%22%2C%22expression%22%3A%22%24%7Border_items.total_sales%7D%2Foffset%28%24%7Border_items.total_sales%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D&origin=share-expanded",
+          "url": "/explore/cheetah/order_items?fields=order_items.created_quarter,order_items.total_sales&fill_fields=order_items.created_quarter&f[order_items.created_year]=2+quarters+ago+for+2+quarters&sorts=order_items.created_quarter+desc&limit=500&column_limit=50&vis=%7B%22custom_color_enabled%22%3Atrue%2C%22custom_color%22%3A%22%22%2C%22show_single_value_title%22%3Atrue%2C%22single_value_title%22%3A%22Total+Sales+Last+Quarter%22%2C%22show_comparison%22%3Atrue%2C%22comparison_type%22%3A%22change%22%2C%22comparison_reverse_colors%22%3Afalse%2C%22show_comparison_label%22%3Atrue%2C%22series_types%22%3A%7B%7D%2C%22type%22%3A%22single_value%22%7D&filter_config=%7B%22order_items.created_year%22%3A%5B%7B%22type%22%3A%22past%22%2C%22values%22%3A%5B%7B%22constant%22%3A%222%22%2C%22unit%22%3A%22c_qu%22%7D%2C%7B%7D%5D%2C%22id%22%3A1%2C%22error%22%3Afalse%7D%5D%7D&dynamic_fields=%5B%7B%22table_calculation%22%3A%22previous_quarter%22%2C%22label%22%3A%22Previous+Quarter%22%2C%22expression%22%3A%22%24%7Border_items.total_sales%7D%2Foffset%28%24%7Border_items.total_sales%7D%2C1%29%22%2C%22value_format%22%3Anull%2C%22value_format_name%22%3A%22percent_0%22%2C%22_kind_hint%22%3A%22measure%22%2C%22_type_hint%22%3A%22number%22%7D%5D",
+          "query_timezone": null,
+          "has_table_calculations": true,
+          "model": "cheetah",
+          "can": {
+            "run": true,
+            "see_results": true,
+            "explore": true,
+            "create": true,
+            "show": true,
+            "cost_estimate": true,
+            "index": true,
+            "see_lookml": true,
+            "see_derived_table_lookml": true,
+            "see_sql": true,
+            "generate_drill_links": true,
+            "download": true
+          }
+        },
+        "vis_config": {
+          "custom_color_enabled": true,
+          "custom_color": "",
+          "show_single_value_title": true,
+          "single_value_title": "Total Sales Last Quarter",
+          "show_comparison": true,
+          "comparison_type": "change",
+          "comparison_reverse_colors": false,
+          "show_comparison_label": true,
+          "series_types": {
+          },
+          "type": "single_value"
+        },
+        "can": {
+        }
+      },
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true,
+        "explore": true,
+        "run": true,
+        "show_errors": true,
+        "find_and_replace": true
+      }
+    }
+  ],
+  "dashboard_layouts": [
+    {
+      "id": 11,
+      "dashboard_id": 11,
+      "type": "newspaper",
+      "active": true,
+      "column_width": null,
+      "width": null,
+      "deleted": false,
+      "dashboard_title": "Total Sales",
+      "dashboard_layout_components": [
+        {
+          "id": 25,
+          "dashboard_layout_id": 11,
+          "dashboard_element_id": 25,
+          "row": 0,
+          "column": 6,
+          "width": 13,
+          "height": 5,
+          "deleted": false,
+          "element_title": null,
+          "vis_type": "single_value",
+          "can": {
+            "index": true,
+            "show": true,
+            "create": true,
+            "update": true,
+            "destroy": true
+          }
+        }
+      ],
+      "can": {
+        "create": true,
+        "update": true,
+        "destroy": true,
+        "index": true,
+        "show": true
+      }
+    }
+  ],
+  "dashboard_filters": [
+
+  ],
+  "load_configuration": "cache_run",
+  "background_color": null,
+  "show_title": null,
+  "title_color": null,
+  "show_filters_bar": null,
+  "tile_background_color": null,
+  "tile_text_color": null,
+  "text_tile_text_color": null,
+  "last_accessed_at": "2019-04-23 21:34:03 +0100",
+  "created_at": "2019-04-17 15:05:01 +0100",
+  "deleted_at": null,
+  "deleter_id": null,
+  "edit_uri": null,
+  "lookml_link_id": null,
+  "model": null,
+  "content_favorite_id": null,
+  "deleted": false,
+  "last_viewed_at": "2019-04-23 21:34:04 +0100",
+  "can": {
+    "download": true,
+    "index": true,
+    "show": true,
+    "copy": true,
+    "run": true,
+    "create": true,
+    "move": true,
+    "update": true,
+    "destroy": true,
+    "recover": true,
+    "see_lookml": true,
+    "schedule": true
+  }
+}
