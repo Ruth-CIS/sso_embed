@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+        window.addEventListener("message", function (event) {
+if (event.source === document.getElementById("looker").contentWindow) { // confirm message came from Looker
+        var embedEvent = JSON.parse(event.data)
+    if(embedEvent.type  == "dashboard:filters:changed")
+            console.log("filter changed!");
+}
+});
+
+</script>
+
+<iframe id="looker"
+src="{{ iframe_url }}"
+?embed_domain=localhost:5000
+style='height:1500px; width:100%'></iframe>
+</html>
