@@ -98,46 +98,15 @@ embed_secret='**Place your embed secret here**'
 def test():
   looker = Looker('localhost:9999', embed_secret)
 
-  # 
-  # user = User(55,
-  #             first_name='William',
-  #             last_name='Poe',
-  #             permissions=['see_lookml_dashboards', 'access_data','see_user_dashboards','see_looks','explore','see_sql','see_user_dashboards'],
-  #             models=['cheetah'],
-  #             group_ids=[5,7],
-  #             external_group_id='Cheetah-Client-675',
-  #             user_attributes={"brand": "Ray-Ban,Dockers", "state": "Texas,Florida,California,New York"},
-  #             access_filters={'fake_model': {'id': 1}})
-
-  # user = User(66,
-  #             first_name='Sallie',
-  #             last_name='Williams',
-  #             permissions=['see_lookml_dashboards', 'access_data','see_user_dashboards','see_looks','explore','see_sql','see_user_dashboards','embed_browse_spaces'],
-  #             models=['cheetah'],
-  #             group_ids=[5,6,8],
-  #             external_group_id='Cheetah-Client-390',
-  #             user_attributes={"brand": "Levi's,Calvin Klein", "state": "Arizona,Nevada,Colorado"},
-  #             access_filters={'fake_model': {'id': 1}})
-
-  # user = User(77,
-  #             first_name='Jackson',
-  #             last_name='Hi',
-  #             permissions=['see_lookml_dashboards', 'access_data','see_user_dashboards','see_looks','explore','see_sql','see_user_dashboards','embed_browse_spaces'],
-  #             models=['cheetah'],
-  #             group_ids=[5,6,9],
-  #             external_group_id='Cheetah-Client-10092',
-  #             user_attributes={"brand": "Levi's,Calvin Klein", "state": "Arizona,Nevada,Colorado"},
-  #             access_filters={'fake_model': {'id': 1}})
-
 
   user = User(88,
-              first_name='Melissa',
-              last_name='Ha',
-              permissions=['see_lookml_dashboards', 'access_data','see_user_dashboards','see_looks','explore','see_sql','see_user_dashboards','embed_browse_spaces'],
-              models=['cheetah'],
+              first_name='Foo',
+              last_name='Bar',
+              permissions=['see_lookml_dashboards', 'access_data','see_user_dashboards','see_looks','explore','see_sql','see_user_dashboards','embed_browse_spaces','save_content'],
+              models=['sso_demo'],
               group_ids=[5,6,9],
-              external_group_id='Cheetah-Client-390',
-              user_attributes={"brand": "Dockers,Levi's,Calvin Klein", "state": "Arizona,Nevada,Colorado"},
+              external_group_id='Publisher1',
+              user_attributes={"brand": "Levi's,Calvin Klein,Dockers", "state": "California,Nevada,Colorado"},
               access_filters={'fake_model': {'id': 1}})
 
   fifteen_minutes = 15 * 60
